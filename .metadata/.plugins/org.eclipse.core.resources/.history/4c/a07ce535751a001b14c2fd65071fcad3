@@ -1,0 +1,5 @@
+package com.mkpolo.idat.repository;
+
+public interface AreaRepository {
+
+}

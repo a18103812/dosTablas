@@ -1,0 +1,32 @@
+package com.mkpolo.idat.service;
+
+import java.util.List;
+
+import com.mkpolo.idat.entity.Areas;
+
+
+
+public interface IAreaService {
+
+	
+	
+	
+	
+ public List<Areas> listarAreas();	
+	
+	public void guardar (Areas areas);
+	
+	public void eliminar(Long id);
+	
+	
+	public Areas buscarPorId(Long id);
+	
+	
+	public boolean existeArea(String areas);
+	
+	public boolean existeid(Long id);
+	
+	 
+	
+	
+}
